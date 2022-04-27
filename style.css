@@ -13,11 +13,14 @@ body{
     overflow: hidden;
     height: 100vh;   
     font-family: 'Montserrat', sans-serif;
+    color: #707070;
+    margin: 0;
+    padding: 0;
 }
 
 .search-form .serach-button{
     display:flex;
-    width: 175px;
+    width: 150px;
     flex-direction: column;
     background: rgba(24, 24, 25, 0.6);
     padding: 20px;
@@ -52,7 +55,7 @@ body{
 }
 
 .date-container.date{
-    font-size: 30px;
+    font-size:  70px;
 }
 
 .place-container{
@@ -72,18 +75,19 @@ body{
 
 .current-info .others{
     display: flex;
-    width: 175px;
+    width: 200px;
     flex-direction: column;
     background: rgba(24, 24, 25, 0.6);
     padding: 20px;
-    border-radius: 20px;
-    margin: 10px 0;
-    border: 2px solid #eee;
+    border-radius: 30px;
+    margin: 5px 0;
+    border: 3px solid #eee;
 }
 
 .current-info.others .weather-item{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
+
 }
 
 .future-forecast{
@@ -93,7 +97,7 @@ body{
     bottom: 0;
     display: flex;
     color: white;
-    width: 91%;
+    width: 100%;
     align-items: center;
 }
 
@@ -111,7 +115,7 @@ body{
 }
 
 .future-forecast .today .temp{
-    /*font-size: 30px;*/ 
+    font-size: 30px;
     width: 10px;
     padding-top: 15px;
 }
@@ -140,6 +144,15 @@ body{
 
 .weather-forecast .weather-forecast-item .temp{
     font-weight: 100;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+}
+  
+.form-rounded {
+    border-radius: 2em;
 }
 
 @media only screen and (max-width:730px){
@@ -187,3 +200,6 @@ body{
         font-size: 14px;
     }
 }
+
+
+
